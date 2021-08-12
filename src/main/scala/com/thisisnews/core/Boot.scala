@@ -4,6 +4,8 @@ import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.Route
 import com.thisisnews.core.routes.Routes
+import com.thisisnews.core.services.newsapiorg.NewsApiOrg
+import com.typesafe.config.ConfigFactory
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
